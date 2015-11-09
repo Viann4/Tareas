@@ -1,0 +1,111 @@
+\documentclass[a4paper]{article}
+\usepackage{url}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\def\UrlBigBreaks{\do/\do-\do:}
+\title{Impresiones 3D implementadas en la medicina}
+
+\author{Vianney Rangel Reyes}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Technology has been used by humanity for several applications during history. The most important branches of science that must be developed are the ones that do well to mankind, such as the 3D scanners and printers that could help doctors to get a higher success rate during a surgery.
+\end{abstract}
+
+\section{Introducción}
+EL origen de las impresoras 3D se remonta a 1976 junto con la invención de la impresora de inyección de tinta. Desde ese momento en adelante comenzaron los primeros estudios que llegaron a las impresoras 3D actuales. 
+Por ultimo con el paso del tiempo como era de esperarse, las impresoras 3D fueron ganando más aplicaciones y varias instituciones fueron abordando el tema para sus propósitos hasta la actualidad, incluyendo los médicos.
+
+\section{Desarrollo}
+Durante la época de los ochentas comenzó a salir a la luz la primera información acerca de desarrolladores de impresoras 3D y su concepto. Charles Hull fue un importante colaborador, siendo el co-fundador de 3D Systems e inventor de la estereolitografía.
+
+La estereolitografía consiste en la solidificación de sustancias como la resina, gracias a incidencia de luz ultravioleta. Dentro de un recipiente se dirige el rayo en cierta área donde se forma una capa de materia solidificada, después se hunde una distancia que será el ancho de la capa para crear una nueva sobre la primera. Capa a capa se va formando la figura de resina hasta que se tiene completa, se limpia de excesos de resina y se refuerza con más luz ultravioleta.
+
+
+Por otra parte tenemos las impresoras 3D que funcionan como una impresora de chorro de tinta. La tinta es sustituida por otros materiales que son depositados en una sucesión de capas indicadas en el formato digital del objeto, de igual manera capa por capa hasta tener nuestro nuevo objeto.
+
+
+
+En este artículo nos enfocamos en las investigaciones que realizaron el MIT (Massachusetts Institude of Technology) y el Boston children's Hospital de EEUU. Sus investigaciones entran en el ámbito médico  y tienen que ver con cirugías de alto riesgo en órganos importantes del ser humano.
+
+
+
+Los cirujanos utilizan las imágenes por resonancia magnética (IRM), un método no invasivo, para conseguir imágenes de los órganos que serán sometidos a cirugía. Con estas planean a grandes rasgos como se moverán a la hora de la operación. Sin embargo, el solo crear una imagen mental no es muy eficiente y es necesario examinar por más tiempo durante la operación a órgano abierto, propiciando un mayor riesgo para el individuo y más cuando a niños se refiere. Por lo tanto fue necesario pensar en un método por el cual el cirujano encargado tuviera la oportunidad de practicar la operación antes de realizarla en la persona.
+
+Las impresoras 3D podrían ser la solución a la visualización física de los órganos internos de los pacientes, realizando un simulacro de la operación en un modelo, pero antes de poder pasar a la impresión directa, se vio el problema de cómo crear la imagen digital 3D en una computadora. 
+
+Las IRM fueron la clara solución al dilema, ya que contienen un gran número de cortes transversales del órgano por lo que los investigadores se especificación en cómo crear la imagen 3D a partir de ellas. Para la recreación del objeto, en cada una de las imágenes obtenidas, gracias a la escala de grises se comenzaron a obtener cuales eran los bordes del órgano, pero el programa no podía distinguirlos con la precisión suficiente que se necesita.
+
+
+
+Durante varios años el dilema fue el tiempo y la precisión, los algoritmos no eran suficientes para conseguir las imágenes en un rango de tiempo útil para la operación y tampoco eran fiables para el cirujano. 
+
+EL corazón y el resto de los órganos sigue un patrón de forma que podría servir de guía, pero la mayoría de los pacientes tenían problemas justamente por la forma irregular de su corazón, lo cual eliminaba la opción de seguir los patrones. Otra opción fue la ayuda manual sobre varias imágenes de resonancia magnética, pero eso haría gastar un día más en la operación, algo no viable para el paciente.
+
+Por medio de prueba y error, se llegó al mejor resultado, cuando un experto se encargó de marcar un pequeño porcentaje de las líneas de las secciones transversales y dejo el resto a manos del programa, con esto se logró subir al noventa por ciento de aciertos en visualización del órgano, una gran y grata sorpresa para los investigadores.
+
+Con el último método escogido, se logró conseguir la imagen digital 3D del órgano en tan solo una hora, tiempo aceptable para el cirujano.
+
+Después de tener la imagen, entonces se puede pasar a hacer una recreación física del órgano con una impresora 3D que tomara otras dos horas, logrando así conseguir un modelo físico del corazón del paciente a ser operado en el transcurso de tan solo 3 horas. El cirujano puede así practicar con un modelo fiable del corazón y gastar menos tiempo en exploración durante la operación, disminuyendo los riesgos en la salud del paciente.
+
+En el hospital de Boston se han realizado ya varias operaciones con la ayuda de los modelos 3D obtenidos, no solo del corazón sino de otras partes del cuerpo, así como el cerebro o incluso la modificación del cráneo de un niño. En la Fig.1 se muestra la imagen 3D de la parte del cerebro de un paciente que necesito de una operación por una malformación arteriovenosa.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.8\textwidth]{brain.jpg}
+\caption{\label{fig:frog}Imagen digital de la parte del cerebro de un paciente del hospital de Boston que se sometió a una operación}
+\end{figure}
+
+Se sabe que las personas allegadas al paciente incluso llegaron a comentar que les agradaría tener una impresión física de la imagen 3D obtenida de su cerebro para recordar el gran logro de la curación de una persona tan importante para ellos.
+
+Así como aquel joven, muchos más pacientes han librado operaciones de alto riesgo gracias a la creación de modelos de los órganos conflictivos. Con el tiempo se espera que más gente tenga acceso a tales servicios médicos para mejorar la probabilidad de éxito de curación.
+
+
+
+\section{Conclusiones}
+
+Mi mayor interés por este tema fue el cómo se puede utilizar la tecnología y la programación en el campo de la medicina. Existen tantas utilidades que se le pueden dar a los inventos tecnológicos limitados solo por la imaginación del hombre, y usarla para el bien integral y la salud de otros es una de las mejores maneras de aprovecharlas. Se pueden encontrar variados artículos acerca del tema, tanto en las páginas directas de las instituciones como en blogs de noticias y más, pero para indagar más en el tema se necesita investigar de ramas por separado para poder realmente saber de raíz cómo funcionan los métodos comentados.
+
+Después de la investigación, es satisfactorio sabes que se invierte en este tipo de investigaciones, pero también aun en este campo son muy limitadas las personas que pueden llegar a tener el lujo de acceder a esta tecnología, por lo que solo queda ver como se avanza en el tema con el paso de los años
+
+\begin{thebibliography}{9}
+
+\bibitem{ImpresorasIndustria}
+30 Years of Innovation | 3D Systems. (n.d.). Retrieved from http://www.3dsystems.com/30-years-innovation
+
+\bibitem{Cerebro}
+3D Printing Helps Doctors Rehearse Complex Brain Procedures -- BOSTON, July 31, 2015 /PRNewswire-USNewswire/ --. (n.d.). Retrieved from http://www.prnewswire.com/news-releases/3d-printing-helps-doctors-rehearse-complex-brain-procedures-300121942.html.
+
+\bibitem{ImpresorasFuncionamiento}
+History of 3-D Printing - How 3-D Printing Works. (n.d.). Retrieved from http://computer.howstuffworks.com/3-d-printing1.htm.
+
+\bibitem{ResonanciaMagnetica}
+Imagen por Resonancia Magnética (IRM) | National Institute of Biomedical Imaging and Bioengineering. (n.d.). Retrieved from \url{http://www.nibib.nih.gov/espanol/temas-cientificos/imagen-por-resonancia-magn%C3%A9tica-irm}.
+
+\bibitem{HospitalPrincipal}
+International Health Services | Boston Children's Hospital. (n.d.). Retrieved from \url{http://www.childrenshospital.org/international}.
+
+\bibitem{Corazon}
+Modelos de corazón en 3D y personalizados para planificar operaciones quirúrgicas. (n.d.). Retrieved from \\
+\url{http://www.tendencias21.net/Modelos-de-corazon-en-3D-y-personalizados-para-planificar-operaciones-quirurgicas-a41128.html}.
+
+\bibitem{Corazon3D}
+Obtener en horas modelos físicos 3D del corazón de un paciente a partir del escaneo por resonancia magnética — Noticias de la Ciencia y la Tecnología (Amazings® / NCYT®). (n.d.). Consultado en
+\url{http://noticiasdelaciencia.com/not/16094/
+obtener
+-en-horas-modelos-fisicos-3d-del-corazon-de-un-paciente-a-partir-  
+del-escaneo-por-resonancia-magnetica/}
+
+\bibitem{Cerebro3D}
+3D printing guides brain surgery for AVM. (n.d.). Retrieved from \url{http://thriving.childrenshospital.org/3d-printing-guides-tricky-brain-surgery/?__utma=98476749.171881278.1446001789.1446001790.1446003668.2\&\_\_utmb=98476749.5.8.1446003817721\&__utmc=98476749&\_\_utmx=-\&\_\_utmz=98476749.1446001790.1.1.utmcsr=prnewswire.com|utmccn=%28referral%29|utmcmd=referral|utmcct=/news-releases/3d-printing-helps-doctors-rehearse-complex-brain-procedures-300121942.html&__utmv=-\&__utmk=168463017&_ga=1.201161838.171881278.1446001789}
+\end{thebibliography}
+
+\end{document}
